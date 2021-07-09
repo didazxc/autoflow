@@ -1,0 +1,30 @@
+/venv
+*.egg-info
+/.pytest_cache
+/build
+/dist
+/test
+/Python
+/prepare
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# files build by Cython
+/autoflow/samples/*.c
+/autoflow/samples/*.html
+/autoflow/samples/*.so
+/autoflow/samples/ruletree/rules.cpp
+/autoflow/samples/ruletree/*.c
+/autoflow/samples/ruletree/*.html
+/autoflow/samples/ruletree/*.so
+
+autoflow.zip
+
+# checkpoint
+*.checkpoint

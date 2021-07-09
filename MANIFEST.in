@@ -1,0 +1,4 @@
+include *.json
+include *.txt
+include *.dat
+recursive-include autoflow *
